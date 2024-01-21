@@ -165,4 +165,125 @@ body{
 
 
 
- 
+  /* STYLING THE SECOND SECTION */
+
+  #mentorship{
+    background-color: var(--light-blue);
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+.mentor{
+    display: flex;
+}
+.mentor-text{
+    padding: 2em 5em;
+    text-align: justify;
+}
+
+.mentor-text h2{
+    color: var(--main-blue);
+   
+}
+
+.mentor-text h2::after{
+  content:"";
+  position: absolute;
+  top: 37em;
+  left: 17em;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 15%;
+  height: 7px;
+  border-radius: 4px;
+  background-color: var(--yellow);
+}
+
+
+.mentor-text p{
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+.mentor-img{
+padding: 2em 5em;
+}
+.mentor-img img{
+    border-radius: 10px;
+}
+
+
+
+
+
+.techstar{
+    display: flex;
+    padding-top: 5em;
+}
+
+.career{
+margin: 0em 3em;
+
+}
+
+.career-path{
+  margin: 0em 3em;
+  border-left: 2px solid var(--yellow);
+  border-right: 2px solid var(--yellow);
+  padding-left: 1em;
+  padding-right: 1em;
+
+}
+
+.career-path h2{
+  font-weight: bold;
+  margin-bottom: 1em;
+  color: var(--main-blue);
+}
+
+.career h2{
+    font-weight: bold;
+    margin-bottom: 1em;
+    color: var(--main-blue);
+}
+.career-img{
+    margin: 0em 3em 2em 5em;
+    color: var(--main-blue);
+    font-weight: bold;
+    text-align: center;
+}
+
+.career-img img{
+    margin-top: 5em;
+}
+
+.career-spec{
+    display: flex;
+    /* margin-top: 10px; */
+
+}
+
+.career-spec img{
+    border-radius: 100%;
+    margin-bottom: 5px;
+}
+
+.career-spec li{
+    margin-top: 10px;
+    margin-left: 10px;
+    list-style: none;
+
+}
+
+.stack-icon{
+  color: var(--main-blue);
+}
+    
+
+
+
+
