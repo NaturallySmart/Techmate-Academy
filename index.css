@@ -287,3 +287,102 @@ margin: 0em 3em;
 
 
 
+/* styling the testimonial section */
+
+.testimonial{
+  background-color: var(--main-blue);
+  padding-top: 1em;
+  
+}
+
+.testimonial h2{
+  color: var(--yellow);
+  text-align: center;
+  font-size: 40px;
+  
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  height: 35vh;
+  position: relative;
+  margin: 0em 20em;
+  border-radius: 8px;
+  
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  /* padding: 2em; */
+  text-align: center;
+  color: white;
+  display: none;
+  animation: fadeInOut 5s;
+ }
+
+.mySlides img {
+border-radius: 100%;
+  }
+
+/* Caption text */
+
+blockquote img{
+  margin: 2em 0em 0em 0em ;
+}
+/* .text {
+    color: white;
+    font-size: 5px;
+    margin: 1em 5em;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  } */
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: var(--yellow);
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 10s;
+}
+
+/* @keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+} */
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+
