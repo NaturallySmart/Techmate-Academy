@@ -383,6 +383,45 @@ blockquote img{
   }
 }
 
+/* STYLING THE FOOTER */
 
+.footer{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--black);
+  color: white;
+  margin-top: 3em;
+}
+
+.footer-details{
+  margin: auto;
+  padding: 3em;
+  display: flex;
+}
+
+.foot{
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.6;
+  max-width: 90ch;
+}
+
+.foot h3{
+  text-align: center;
+}
+
+.foot li{
+  list-style-type: none;
+}
+
+.foot li a{
+  text-decoration: none;
+  color: var(--white);
+}
+
+.foot li a:hover{
+  color: var(--main-blue);
+}
 
 
