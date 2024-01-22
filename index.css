@@ -90,7 +90,7 @@ body{
 
 
   #hero{
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.884) 100%, rgba(0, 0, 0, 0.822)50%), url(image/twosystems.jfif);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7) 100%, rgba(0, 0, 0, 0.7)50%), url(image/twosystems.jfif);
     width: 100%;
     height: 100vh;
     background-size: cover;
