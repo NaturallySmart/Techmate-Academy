@@ -1,0 +1,22 @@
+:root{
+    --main_blue:dodgerblue;
+    --second_blue:#7eb0fa;
+    --dark_ash:  #1f1e2b;
+    --yellow: rgb(255, 217, 0);
+    --black: black;
+    --second_black: rgb(37, 35, 35);
+    --white: white;
+    --ash:rgb(155, 154, 154);
+    --red: rgb(241, 142, 142);
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--dark_ash);
+    margin: 0em;
+    /* color: var(--white);
+    text-align: left;
+    font-size: 20px;
+    line-height: 35px; */
+    /* letter-spacing: 2px; */
+}
