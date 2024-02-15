@@ -105,3 +105,26 @@ a{
     letter-spacing: 1px;
     transition: all .3s ease-in-out;
 }
+
+.next-btn{
+    width: 100px;
+    height: 40px;
+    background-color: var(--main_blue);
+    border: 3px solid var(--main_blue);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.next-btn:hover{
+    background-color: var(--second_blue);
+    border: 3px solid var(--second_blue);
+}
+
+
+.next-btn a{
+    text-decoration: none;
+    color: var(--dark_ash);
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: all .3s ease-in-out;
+}
