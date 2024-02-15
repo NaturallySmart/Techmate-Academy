@@ -58,3 +58,50 @@ code{
     /* background-color: var(--ash); */
     /* color: white; */
 }
+
+a{
+    color: var(--main_blue);
+    text-decoration: none;
+}
+
+
+.note{
+    background-color: var(--red);
+    padding: 1em;
+    color: black;
+}
+
+
+
+/* styling the buttons */
+
+.nav-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 3em;   
+}
+
+
+.back-btn{
+    width: 100px;
+    height: 40px;
+    background-color: inherit;
+    border: 3px solid var(--main_blue);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.back-btn:hover{
+    border: 3px solid var(--second_blue);
+}
+
+.back-btn a{
+    text-decoration: none;
+    color: var(--black);
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: all .3s ease-in-out;
+}
