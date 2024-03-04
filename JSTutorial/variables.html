@@ -63,6 +63,42 @@
         with <b><i>mycar</i></b>.
     </p> <br><br>
 
-  
+    <h2>Creating a Variable using <i>let</i></h2>   
+
+    <p>
+        The <b>let</b> keyword signals that the variable can be reassigned a different value. See example below:
+    </p>
+
+    <h2><i>Example 2</i></h2>
+
+    <img src="image/variables/variables2.PNG" alt="code sample"> <br>
+
+    <p id="example2"></p>
+    <p id="example2.1"></p>
+
+    <script>
+        let phone = 'iphone';
+
+        document.getElementById('example2').innerHTML = phone;
+
+        phone = 'Samsung';
+
+        document.getElementById('example2.1').innerHTML = phone;
+    </script>
+
+    <p>
+        In the above example, you will notice that the variable phone was redeclared without using the <b>let</b>
+        keyword when it was reassigned to "samsung".
+    </p>
+
+    <p>
+        When also using the the <b>var</b> and the <b>let</b> keyword, we can declare a variable without assigning 
+        a value to it (this will output undefined). The value can be assigned to it later in the code. <br>
+        <b>See code sample below</b>
+    </p>
+
+    <img src="image/variables/var3.PNG" alt="">
+
+ 
 </body>
 </html>
