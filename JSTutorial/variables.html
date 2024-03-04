@@ -99,6 +99,48 @@
 
     <img src="image/variables/var3.PNG" alt="">
 
- 
+    <script>
+        let car;
+        console.log(car); // Output: undefined
+
+        car = 'Benz';
+
+        console.log(car); // Output: Benz
+    </script>
+
+    <br><br>
+
+    <h2>Creating a Variable using <i>const</i></h2>
+
+    <p>
+        <b>const</b> stands for constant. It is also used to declare a variable. However, a const variable 
+        cannot be reassigned because it is constant. If you try to reassign a const variable, you’ll get a 
+        TypeError. <br><br>
+
+        Constant variables must be assigned a value when declared. If you try to declare a const variable 
+        without a value, you’ll get a SyntaxError.
+    </p>
+
+    <h2><i>Example 3</i></h2>
+
+    <img src="image/variables/var4.PNG" alt="code sample"> <br>
+
+    <p id="example3"></p>
+
+    <script>
+        const color = 'blue';
+
+document.getElementById('example3').innerHTML = color;
+</script>
+<br>
+
+<h3><i>Note:</i></h3>
+<p>
+If you’re trying to decide between which keyword to use, let or const, think about whether
+you’ll need to reassign the variable later on. If you do need to reassign the variable use let, 
+otherwise, use const.
+</p>
+
+
 </body>
 </html>
