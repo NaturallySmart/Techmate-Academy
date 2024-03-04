@@ -141,6 +141,27 @@ you’ll need to reassign the variable later on. If you do need to reassign the 
 otherwise, use const.
 </p>
 
+<h2><i>Example 4</i></h2>
 
+<img src="image/variables/var5.PNG" alt="Code Sample"> <br>
+
+<p id="example4"></p>
+
+<script>
+const currency = '$';
+
+let devAnnualSalary = 120000;
+
+document.getElementById('example4').innerHTML = `The average salary for a developer is
+${currency + devAnnualSalary}.`;
+
+ // Output: The average salary for a developer is $120000.
+</script>
+
+
+<div class="nav-button">
+<button class="back-btn"><a href="math.html">BACK</a></button>
+<button class="next-btn"><a href="assignment_operator.html">NEXT</a></button>          
+</div>
 </body>
 </html>
