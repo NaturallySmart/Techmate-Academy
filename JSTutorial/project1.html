@@ -19,6 +19,27 @@
 
 <img src="image/variables/kelvinweather.PNG" alt="Code Sample"> <br>
 
+<p id="project1"></p>
+
+<script>
+
+    // declaring the constant variable kelvin with a value of 293
+    const Kelvin = 293;
+
+    // since celcius is 273 less than kelvin    
+    let Celcius = Kelvin - 273;
+
+    // //calculating fahrenheit
+    let Fahrenheit = Celcius * (9 / 5) + 32;
+
+    // //rounding up the the value of fahrenheit to remove the decimal using the .floor() method
+    Fahrenheit = Math.floor(Fahrenheit);
+
+    // interpolating the string to replace temperature
+
+    document.getElementById('project1').innerHTML = `the current temperature is ${Fahrenheit} degrees temperature.`;
+</script>
+
 
 
 </body>
