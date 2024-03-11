@@ -24,7 +24,29 @@
         raceNumber += 1000;
         }
 
+        if (age > 18 && registeredEarly) {
 
+// if the age is more than 18 and registered early
+document.getElementById('demo').innerHTML = `Your race will start by 9:30am <br> race number is: 
+${raceNumber}.`;  
+
+} else if (age > 18 && !registeredEarly) {
+
+// where age is more than 18 but not (!) registered early
+document.getElementById('demo').innerHTML = `Your race starts by 11:00am and you race number is: 
+${raceNumber}.`;
+
+
+} else if (age < 18){ 
+
+// when age is less than 18 regardless of registration time
+document.getElementById('demo').innerHTML = `Your race starts by 12:30pm,and your race number is:
+${raceNumber}.`;
+
+} else {
+// when the age is equal to 18 regardless of the registration time
+document.getElementById('demo').innerHTML = "See the registration desk.";
+}
         
         </script>
         
