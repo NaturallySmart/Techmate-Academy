@@ -54,6 +54,34 @@
 
     <h1>Calling a Function</h1>
 
+    <p>
+        In the above code examples, the functions were only declared but not called and as such the code will
+        not run. To make a code in the function body run, the function needs to be called. The function can be
+        called as many times as you want in your work.
+    </p>
+
+    <h2><i>Example 1</i></h2>
+
+    <img src="image/functions/function3.PNG" alt="code sample"> <br>
     
+    <p id="example1"></p>
+    <p id="example1.2"></p>
+
+       <script>
+        function newSubject() {
+            document.getElementById('example1').innerHTML = "I love Javascript!";
+        }
+
+        function newStudents() {
+            document.getElementById('example1.2').innerHTML = "Welcome to Javascript class!"
+            }
+            newSubject();  // calling first function
+            newStudents();   // calling second function
+    </script>
+
+    <div class="nav-button">
+        <button class="back-btn"><a href="function_intro.html">BACK</a></button>
+        <button class="next-btn"><a href="function_parameters.html">NEXT</a></button>          
+    </div>
 </body>
 </html>
