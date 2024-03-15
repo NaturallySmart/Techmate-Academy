@@ -46,6 +46,35 @@
             newStudents('Ray');   // calling the function
     </script>
 
-  
+<h1>Default Parameters</h1>
+
+<p>
+    It is possible to declare a default parameter (placeholder) for a function so that when the function 
+    is called without an argument parameter, or the argument is <i>undefined</i>, the default parameter
+    is used authomatically. <br><br>
+
+    By using a default parameter, we account for situations when an argument isn’t passed into a 
+    function that is expecting an argument. <br><br>
+   
+
+    Default parameters are defined by assigning them values inside parentheses after the required 
+    arguments.<br><br>
+
+    <b>See Example below:</b>
+</p>
+
+<h2><i>Example 2</i></h2>
+
+<p id="example2"></p>
+
+<script>
+    function greetings(name='No Name'){
+        document.getElementById('example2').innerHTML= 'Hello, '+ name ;
+        }
+        greetings();      // calling the function with no argument
+        greetings('Tech Mates');  // calling the function with one argument
+</script>
+
+ 
 </body>
 </html>
