@@ -21,6 +21,31 @@
         When you forget to use the return keyword, the function will return undefined by default.
     </p>
 
-    
+    <h2><i>Example 1</i></h2>
+
+    <p>
+        TechMate coding school just opened it's physical training centre and needs to buy computers to fill
+        the class for all students. The students desk has been arranged and it has 6 rows and 5 columns.
+        Determine how many computers <b>TechMate</b> needs to buy to fill all the desk using a function 
+        return statement.
+    </p>
+
+    <img src="image/functions/function5.PNG" alt="code sample"> <br>
+
+    <p id="example1"></p>
+
+    <script>
+
+        function deskCount(rows, columns) {
+            return rows * columns;
+        }
+
+        const computersNeeded = deskCount(6, 5);
+
+        document.getElementById('example1').innerHTML = computersNeeded;
+       
+    </script>
+
+   
 </body>
 </html>
