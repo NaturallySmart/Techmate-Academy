@@ -117,6 +117,23 @@
 
 </p>    
 
+<script>
+    function deskCount(rows, columns) {
+    return rows * columns;
+    }
 
+    function costOfComputers(rows, columns) {
+    return deskCount(rows, columns) * 120000;
+    }
+
+    const totalCost = costOfComputers(6, 5);
+
+    console.log(totalCost);
+</script>
+
+<div class="nav-button">
+    <button class="back-btn"><a href="function_parameters.html">BACK</a></button>
+    <button class="next-btn"><a href="function_expression.html">NEXT</a></button>          
+</div>
 </body>
 </html>
