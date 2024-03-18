@@ -21,6 +21,10 @@ body{
     /* letter-spacing: 2px; */
 }
 
+.techmate{
+    color: var(--yellow);
+}
+
 
 
 .lesson{
