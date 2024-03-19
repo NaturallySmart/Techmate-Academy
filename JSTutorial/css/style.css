@@ -21,10 +21,22 @@ body{
     /* letter-spacing: 2px; */
 }
 
-.techmate{
+.Techmate a{
     color: var(--yellow);
+    margin: 3em 0em;
+    font-size: 30px;
+    cursor: pointer;
+    padding-left: 5em;
+    position: relative;
+    transition: all 5ms;
+    
 }
 
+.Techmate a:hover{
+    text-decoration: none;
+    color: var(--yellow);
+    font-size: 35px;
+}
 
 
 .lesson{
