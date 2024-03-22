@@ -3,9 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Function Expressions</title>
 </head>
 <body>
+
+    <!-- Tech Mate Logo -->
+
+    <h1 class="Techmate"><a href="../index.html">TechMate</a></h1>
+
+    <section class="lesson">
+
     <h1>Function Expressions</h1>
 
     <p>
@@ -29,7 +37,27 @@
             </li>
         </ol>
         <br>
+        <b>Syntax:</b>
+        <pre>
+            const myFunc = function (param1, param2) {
+                // Function Body...
+            };
+        </pre>
+
+        To invoke a function expression, write the name of the variable in which the function is stored 
+        followed by parentheses enclosing any arguments being passed into the function.
+        <br><br>
+        Example:
+        <pre>
+            let result = myFunc(arg1, arg2);  // myFunc is the variable name
+        </pre>
+
+        Unlike function declarations, function expressions are not hoisted so they cannot be called before 
+        they are defined.
+    </p>
+
     
+    </section>
 
 </body>
 </html>
