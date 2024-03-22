@@ -56,7 +56,33 @@
         they are defined.
     </p>
 
+    <h2><i>Example 1</i></h2>
+
+    <p>
+        Let's say you watch football every saturday, let's create a function expression to check the day of
+        the week so we can know if we are watching football today.
+    </p>
+
+    <p id="example1"></p>
+
+    <img src="image/functions/function7.PNG" alt="code sample"> <br>
+
+    <script>
+        const watchFootball = function(day) { // variable created and assigned an anonymous function of day
+            if (day === 'Saturday') {
+                return true;  // a conditional statement to return true if the day is Saturday
+            } else {
+                return false; // a conditional statement to return false if the day is not Saturday
+            }
+
+            watchFootball('Monday'); //assigns a day to the variable
+        }
+
+        document.getElementById('example1').innerHTML =  watchFootball('Monday');
+    </script>
+
     
+ 
     </section>
 
 </body>
