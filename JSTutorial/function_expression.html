@@ -181,7 +181,39 @@
 <script>
     const plantNeedsWater = day => day === 'Wednesday' ? true : false; // ternary operator used
 </script>
+<h2><i>Exercise 2</i></h2>
 
+<p>
+    Repeat the above example, but this time around use the <b>Date Keyword</b> to automatically get 
+    the current date when calling the function. Then pass that value as an argument to your function.
+    <br>
+
+    Then if the day is saturday, let the output be, "We are watching football today", if not, let
+    the out be, "No football today".
+</p>
+
+<div class="exercise-container">
+    <input type="text" id="dateValue" readonly>
+    <button onclick="getDay()">Get Day</button>
+    <span id="result"></span>
+</div>
+<script>
+    const footballDay = function(day) {
+        if (day === 'Saturday') {
+            return "We are watching football today";
+            } else {
+                return "No football today";
+                }
+                };
+                function getDay(){
+                    var d=new Date();
+                    var n=d.toLocaleString("en-US",{weekday: 'long'});
+                    document.getElementById('dateValue').value = n;
+                    document.getElementById('result').innerText = footballDay(n);
+                    }
+</script>
+
+ 
 
     </section>
 
