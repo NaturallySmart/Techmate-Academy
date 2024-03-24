@@ -107,7 +107,51 @@
 </p>
 
 
- 
+
+<h1>Concise Body Arrow Functions</h1>
+<p>
+    JavaScript also provides several ways to refactor arrow function syntax. The most condensed 
+    form of the function is known as concise body. We’ll explore a few of these techniques below: <br><br>
+
+    <ol>
+        <li>
+            Functions that take only a single parameter do not need that parameter to be enclosed 
+            in parentheses. However, if a function takes zero or multiple parameters, parentheses 
+            are required.
+
+            <pre>
+                <b>Zero Parameter</b>
+                const functionName = ( ) => {};
+            </pre>
+            <pre>
+                <b>One Parameter</b>
+                const functionName = Parameter1 => {};
+            </pre>
+            <pre>
+                <b>Two or More Parameters</b>
+                const functionName = (Parameter1, Parameter2) => {};
+            </pre>
+        </li>
+        <li>
+            A function body composed of a single-line block does not need curly braces. Without the 
+            curly braces, whatever that line evaluates will be automatically returned. The contents 
+            of the block should immediately follow the arrow => and the return keyword can be removed. 
+            This is referred to as <b><i>implicit return</i></b>.
+
+            <pre>
+                <b>Single-Line Block //Implicit Return</b>
+                const addNumbers = num1 => num1 + num2;                    
+            </pre>
+            <pre>
+                <b>Multiple Line Block //Explicit Return</b>
+                const multiplyNumbers = (num1, num2) => {
+                    const result = num1 * num2;
+                    return result;
+                    };
+            </pre>
+        </li>
+    </ol>
+    
  
     </section>
 
