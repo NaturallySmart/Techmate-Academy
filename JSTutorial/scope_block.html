@@ -45,7 +45,31 @@
         <b>Let's see an example</b>
     </p>
 
-    
+    <h2><i>Example 1</i></h2>
+ 
+    <img src="image/scope/scope.PNG" alt="code sample"> <br>
+
+    <p id="example1"></p>
+
+    <script>
+        const sport = 'football';
+
+        function favoriteSport() {
+            let matchDays = 'Saturdays';
+
+            return 'I watch ' + sport + ' every weekend on ' + matchDays;
+        }
+
+        document.getElementById("example1").innerHTML = favoriteSport();
+    </script>
+
+    <p>
+        You’ll notice that the <i>favoriteSport()</i> function is able to access both variables without 
+        any problems. In the next lesson we’ll consider why would it be preferable to have one 
+        variable outside of a block and the other inside of a block.
+    </p>
+
+
 
     </section>
 </body>
