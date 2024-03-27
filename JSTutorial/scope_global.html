@@ -14,7 +14,32 @@
 
     <section class="lesson">
     
-  
+        <h1>Global Scope</h1>
+
+        <p>
+            In <b><i>global scope</i></b>, variables are declared outside of blocks. These variables are called 
+            global variables. Because global variables are not bound inside a block, they can be accessed by any 
+            code in the program, including code in blocks. <br><br>
+    
+            Let’s take a look at an example of global scope:
+    
+            <pre>
+                const color = 'blue';
+                const returnSkyColor = () => {
+                    return color; // blue 
+                    };
+                console.log(returnSkyColor); // blue
+            </pre>
+    
+            In the above code illustration, you will notice that even though the <b>color</b> variable
+            is defined outside of the block, it can still be accessed within the function block because
+            it has been declared globally. In turn, color can be accessed within the returnSkyColor function block.
+            <br><br>
+    
+            <b>Let’s see an example</b>
+        </p>
+    
+        
 
     </section>
 </body>
