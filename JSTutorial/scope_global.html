@@ -39,7 +39,25 @@
             <b>Let’s see an example</b>
         </p>
     
-        
+        <h2><i>Example 1</i></h2>
+    
+        <img src="image/scope/scope2.PNG" alt="code sample"> <br>
+    
+        <p id="example1"></p>
+    
+        <script>
+            const text = 'Goodday';
+            const user = 'Ray';
+            const platform = 'TechMate Tutorials';
+            const subjects = "javaScript and React";
+    
+            function welcomeMessage() {
+                return text + ' ' + user + ', ' + ' welcome to ' + platform + ' where you can learn ' + subjects;
+            }
+            document.getElementById('example1').innerHTML = welcomeMessage();
+        </script>
+    
+
 
     </section>
 </body>
