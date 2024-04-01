@@ -56,7 +56,21 @@
         
             <p id="example1"></p>
         
-
+            <script>
+                function favoriteSport() {
+                    const sport = "Football";
+        
+                   // document.getElementById("example1").innerHTML = sport; ;
+        
+                    document.getElementById("example1").innerHTML +=`My favorite sport is ${sport}!`;
+                }
+                favoriteSport();
+            </script>
+        
+            <div class="nav-button">
+                <button class="back-btn"><a href="scope_global.html">BACK</a></button>
+                <button class="next-btn"><a href="scope_pollution.html">NEXT</a></button>          
+            </div>
         
     </section>
 </body>
