@@ -8,16 +8,34 @@
 </head>
 <body>
 
-<!-- Tech Mate Logo -->
+        <!-- Tech Mate Logo -->
 
-<h1 class="Techmate"><a href="../index.html">TechMate</a></h1>
+        <h1 class="Techmate"><a href="../index.html">TechMate</a></h1>
 
-<section class="lesson">
+        <section class="lesson">
     
     <h1>Scope Pollution</h1>
 
-    
+    <p>
+        It may seem like a great idea to always make your variables accessible, but having too many 
+        global variables can cause problems in a program. <br><br>
+
+        When you declare global variables, they go to the global namespace. The global namespace 
+        allows the variables to be accessible from anywhere in the program. These variables remain 
+        there until the program finishes which means our global namespace can fill up really 
+        quickly and it becomes difficult to keep track of what variable is where. This can lead
+        to bugs that are hard to find because we don't know where something came from. <br><br>
+
+        Scope pollution is a problem in JavaScript where variables that are declared inside of 
+        functions have the same scope as global variables. This can lead to
+        unexpected behavior if not handled properly. <br><br>
+
+        Scope pollution makes it difficult to keep track of our different variables and sets us 
+        up for potential accidents. For example, globally scoped variables can collide with other 
+        variables that are more locally scoped, causing unexpected behavior in our code.
+
+        
+
     </section>
-    
 </body>
 </html>
