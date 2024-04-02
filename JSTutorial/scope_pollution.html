@@ -34,7 +34,40 @@
         up for potential accidents. For example, globally scoped variables can collide with other 
         variables that are more locally scoped, causing unexpected behavior in our code.
 
-        
+        <pre>
+            // Global Variable
+            let x = "I am global";
+            function myFunction() {
+                let x = "I am local";
+                console.log(x); // Output: I am local
+                }
+                myFunction();
+                console.log(x); // Output: I am global                
+        </pre>
+
+        In the example above, you will notice the following:
+
+        <ul>
+            <li>
+                We have two variables named 'x'. One is global (outside any function) and one is 
+                local (inside the function).
+            </li>
+            <li>
+                Inside the function, when we log `console.log(x)`, it logs `"I am local"` instead of
+                `"I am global"`. This demonstrates how scope works.
+            </li>
+            <li>
+                Outside the function, logging `console.log(x)` logs `"I am global"`, showing that even
+                though there was a local variable called 'x', the global variable was used.
+            </li>
+        </ul>
+
+        <i><b>NOTE:</b>While it’s important to know what global scope is, it’s best practice to not 
+            define variables in the global scope.
+        </i>
+    </p>
+
+   
 
     </section>
 </body>
