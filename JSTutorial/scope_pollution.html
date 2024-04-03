@@ -67,7 +67,36 @@
         </i>
     </p>
 
-   
+    <h2><i>Example 1</i></h2>
+
+    <img src="image/scope/scope4.PNG" alt="code sample"> <br>
+
+    <p>The above will give the error below in the console due to the scope pollution.</p>
+
+    <img src="image/scope/scope5.PNG" alt="code sample"> <br>
+
+    <p id="example1"></p>
+
+    <script>
+        const text = 'Goodday';
+        const user = 'Ray';
+        const platform = 'TechMate Tutorials';
+        const subjects = "javaScript and React";
+
+        function welcomeMessage() {
+            subjects = "Python and MongoDB";
+
+            return text + ' ' + user + ', ' + ' welcome to ' + platform + ' where you can learn ' + subjects;
+        }
+        document.getElementById('example1').innerHTML = welcomeMessage();
+
+        document.getElementById('example1').innerHTML = subjects;
+    </script>
+
+    <div class="nav-button">
+        <button class="back-btn"><a href="scope_block_variable.html">BACK</a></button>
+        <button class="next-btn"><a href="scope_goodpractice.html">NEXT</a></button>          
+    </div>
 
     </section>
 </body>
