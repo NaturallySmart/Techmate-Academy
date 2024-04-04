@@ -39,8 +39,34 @@
             It helps you keep track of the variables that are available within each function or block of code.
         </li>
 
-        
+        <pre>
+            const logSkyColor = () => {
+                const dusk = true;
+                let color = 'blue'; 
+                if (dusk) {
+                    let color = 'pink';
+                    console.log(color); // prints pink
+                    } 
+                    console.log(color); // Prints "blue"
+                    };
 
+            console.log(color); // throws a ReferenceError                   
+        </pre>
+
+        In the above illustration, you will notice the following:
+
+        <li>
+            We create a variable color inside the <b><i>logSkyColor()</i></b> function.
+        </li>
+        <li>
+            After the if statement, we define a new code block with the {} braces. Here 
+            we assign a new value to the variable color if the if statement is truthy.
+        </li>
+        <li>
+            Within the if block, the color variable holds the value 'pink', though outside 
+            the if block, in the function body, the color variable holds the value 'blue'.
+        </li>
+  
     </section>
 
 </body>
