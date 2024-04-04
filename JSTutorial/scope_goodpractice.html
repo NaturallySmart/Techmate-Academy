@@ -66,7 +66,29 @@
             Within the if block, the color variable holds the value 'pink', though outside 
             the if block, in the function body, the color variable holds the value 'blue'.
         </li>
-  
+        <li>
+            On the last line, we attempt to print the value of color outside both the if 
+            statement and the definition of logSkyColor(). This will throw a ReferenceError 
+            since color only exists within the scope of those two blocks — it is never 
+            defined in the global scope.
+        </li>
+        <li>
+            While we use block scope, we still pollute our namespace by reusing the same 
+            variable name twice. A better practice would be to rename the variable inside 
+            the block.
+        </li> <br><br>
+
+        Block scope is a powerful tool in JavaScript, since it allows us to define variables 
+        with precision, and not pollute the global namespace. If a variable does not need to 
+        exist outside a block— it shouldn’t!
+    </p>
+    
+    
+    <div class="nav-button">
+        <button class="back-btn"><a href="scope_pollution.html">BACK</a></button>
+        <button class="next-btn"><a href="arrays.html">NEXT</a></button>          
+    </div>
+
     </section>
 
 </body>
