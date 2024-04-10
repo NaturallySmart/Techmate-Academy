@@ -110,7 +110,51 @@
         See an Example below:
     </p>
 
-    
+    <h2>Example 2</h2>
+
+    <img src="image/Arrays/arraypush.PNG" alt="code sample">
+
+    <p id="example2"></p>
+
+    <script>
+        const newStudents = ['John', ' Mike', ' Joe'];
+        newStudents.push(' Alice', ' Bob');
+        document.getElementById("example2").innerHTML = newStudents;
+    </script>
+
+
+    <h1>The .pop() Method</h1>
+
+    <p>
+        Array <b>.pop( )</b> method removes the last item in an array.
+
+        <pre>
+            let itemNumbers = ['item 0', 'item 1', 'item 2'];
+                const removed = itemNumbers.pop( );
+
+            console.log(itemNumbers); //Outputs: ['item 0', 'item 1',]; 
+
+            console.log(removed); // Outputs: item 2
+        </pre>
+
+        In the above example, 
+        <li><b>.pop()</b> removed the the last item which is <b>item 2</b></li>
+        <li>
+            <b>.pop()</b> does not take any argument inside it's parenthesis, it simply
+            just removes the last item in the array of <b>itemNumbers</b>.
+        </li>
+        <li>
+            <b>.pop()</b> returns the value of the last element. In the example, we store 
+            the returned value in a variable <b>removed</b> to be used for later.
+        </li>
+        <li>When <b>removed</b> is called, it prints the element in the array that was removed</li>
+        <br><br>
+        Let's see a code sample:
+    </p>
+
+    <img src="image/Arrays/arraypop.PNG" alt="code sample">
+
+
     </section>
     
 </body>
