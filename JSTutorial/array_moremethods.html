@@ -32,7 +32,37 @@
             </pre>
         </p>
     
-       
+        <h1>Splicing and Slicing Arrays</h1>
+    
+        <h2>.splice() Method</h2>
+    
+        <p>
+            The <b>splice()</b> method adds new items to an array. It can also be used to delete
+            an element from an specific index in an array. It usually takes arguments into it's
+            parenthesis such as <b>.splice(2,1)</b> which means items should be modified starting
+            from index 2 and also delete 1 element starting from that index. <br><br>
+    
+            <b>See code sample below:</b>
+    
+            <pre>
+                const fruits = ["apple", "banana", "cherry"];
+                fruits.splice(1, 0, "orange"); 
+                
+                // Add orange at index 1 and deletes no element
+            </pre>
+    
+            Adding two elements and deleting 2 element from the array starting from index 1.
+    
+            <pre>
+                const names = ['John', 'Kate', 'Mike', 'Joy'];
+                names.splice(1, 2, 'Julia', 'Ray')
+    
+                //This will remove Kate and Mike and add Julia and Ray to that 
+                position respectively.
+            </pre>
+        </p>
+    
+          
    
     </section>
 
