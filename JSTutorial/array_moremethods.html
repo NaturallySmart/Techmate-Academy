@@ -62,7 +62,30 @@
             </pre>
         </p>
     
-          
+        <h2><i>Example 1</i></h2>
+    
+        <img src="image/Arrays/arraysplice.PNG" alt="code sample">
+
+        <p id="example1"></p>
+        <p id="example1.1"></p>
+
+        <script>
+            const names = ['John', 'Kate', 'Mike', 'Joy'];
+
+            document.getElementById('example1').innerHTML = names;
+
+            names.splice(1, 2, 'Julia', 'Ray')
+
+            document.getElementById('example1.1').innerHTML = names;
+        </script>
+
+    <p class="note">
+        <b>Note:</b>
+        <i>The <b>.splice()</b> method can be used to only delete elements from an array</i>
+    </p>
+        
+        
+    
    
     </section>
 
