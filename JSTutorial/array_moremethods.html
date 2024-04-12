@@ -85,7 +85,33 @@
     </p>
         
         
+    <h1>.slice() Method</h1>
     
+    <p>
+        The <b>slice()</b> method slices out a piece of an array into a new array. The parenthesis 
+        usually take index argument(s) such as: <b>.slice(1, 3):</b> which means the new array will
+        start from index 1 but stop before index 3. <b>See Code Sample:</b>
+
+        <pre>
+            const fruits = ['Citrus', 'Lemon', 'Mango', 'Orange', 'Apple']
+            const newFruits = fruits.slice(1, 4);
+    
+            console.log(fruits); //returns all the elements in the array
+            console.log(newFruits); returns Lemon, Mango, Orange
+        </pre>
+
+        From the above the array (fruits) contains five elements which means it's index 
+        starts from 0 and ends at 4. <br> <br>
+
+        <li>The array is sliced from index 1 to index 3 as it will not include index 4</li>
+
+        <li>The new sliced array is assigned to a new array called <b>newFruits</b></li>
+
+        <li><b>newFruits</b> contains Lemon (index 1), Mango (index 2) and Orange (index 3).</li>
+
+    </p>
+
+   
    
     </section>
 
