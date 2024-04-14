@@ -111,7 +111,33 @@
 
     </p>
 
-   
+    <h2><i>Example 2</i></h2>
+
+    <img src="image/Arrays/arrayslice.PNG" alt="code sample">
+
+    <p id="example2"></p>
+
+    <script>
+        const fruits = ['Citrus', 'Lemon', 'Mango', 'Orange', 'Apple']
+        const newFruits = fruits.slice(1, 4);
+        document.getElementById('example2').innerHTML = fruits + "<br>" + newFruits;
+    </script>
+     
+     <h1>.indexOf() an Array</h1>
+
+     <p>
+        <b>.indexOf()</b> returns the first element that matches the value of the argument passed in. 
+        If there isn’t an element whose value matches that of the argument, -1 is returned. <br> <br>
+
+        <b>See sample below:</b>
+
+        <pre>
+            const names = ['Ray', 'Precious', 'Bella', 'Joe'];
+            names.indexOf('Bella'); returns // 3
+        </pre>
+     </p>
+
+     
    
     </section>
 
