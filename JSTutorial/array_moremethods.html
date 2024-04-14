@@ -160,7 +160,42 @@
         </ol>
      </p>
 
+     <br><br>
+
+     <p id="answer1"></p>
+     <p id="answer2"></p>
+     <p id="answer3"></p>
+     <p id="answer4"></p>
+     <p id="answer5"></p>
+     <p id="answer6"></p>
+     <p id="answer7"></p>
     
+
+     <script>
+        
+        const shoppingList = ["Drinks", "Chocolate", "Milk", "Eggs", "Bread", "Butter", "Sugar"];
+        document.getElementById('answer1').innerHTML = shoppingList;
+
+        document.getElementById('answer2').innerHTML = shoppingList.length;
+
+
+        shoppingList.unshift('Meat', 'Yoghurt')
+        document.getElementById('answer3').innerHTML = shoppingList;
+
+        shoppingList.splice(5, 1);
+        document.getElementById('answer4').innerHTML = shoppingList;
+
+        const newShoppingList = shoppingList.slice(1, 7);
+        document.getElementById('answer5').innerHTML = newShoppingList;
+
+        document.getElementById('answer6').innerHTML = newShoppingList.indexOf('Butter');
+        document.getElementById('answer7').innerHTML = newShoppingList.indexOf('Eggs');
+     </script>
+
+
+
+
+
    
     </section>
 
