@@ -12,7 +12,30 @@
 
         <h1 class="Techmate"><a href="../index.html">TechMate</a></h1>
     
-   
+        <section class="lesson">
+            <h1>Arrays and Functions</h1>
+    
+            <p>
+                We can pass an array into a function. When an array has been mutated or changed,
+                using any of the method talked about in the last lesson inside a function, such 
+                changes are reflected inside the function as well. <br>
+    
+                <b>Here's an example</b>
+    
+                <pre>
+                    const colors = ['Red', 'Blue', 'Yellow'];
+    
+                    function addColor(arr) {
+                        arr.push('Green');
+                    }
+    
+                    addColor(colors);
+    
+                    console.log(colors); // Outputs['Red', 'Blue', 'Yellow', 'Green'];
+                </pre>
+    
+             
+        </section>
 
 </body>
 </html>
