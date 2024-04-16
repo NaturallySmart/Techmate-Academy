@@ -51,7 +51,33 @@
                 </li>
             </p>
     
-            
+            <h2><i>Example 1</i></h2>
+    
+            <img src="image/Arrays/arrayfunction.PNG" alt="code sample">
+    
+            <p id="example1"></p>
+    
+            <script>
+                const colors = ['Red', 'Blue', 'Yellow'];
+    
+                function addColor(arr) {
+                arr.push('Green');
+                }
+    
+                addColor(colors);
+    
+                document.getElementById('example1').innerHTML = colors;
+            </script>
+    
+            <p>
+                So when you pass an array into a function, if the array is mutated inside the function, 
+                that change will be maintained outside the function as well. You might also see this 
+                concept explained as pass-by-reference since what we’re actually passing to the function 
+                is a reference to where the variable memory is stored and changing the memory.
+            </p>
+    
+    
+
         </section>
 
 </body>
