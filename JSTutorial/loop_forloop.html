@@ -92,6 +92,38 @@
 
         <p id="example1"></p>
 
+        <script>
+            for (let counter = 11; counter < 16; counter++){
+                document.getElementById("example1").innerHTML += "<br>" + counter;
+            }
+        </script>
+      
+
+      <h2>Looping in Reverse</h2>
+      <p>
+            In the above example, the loop runs from 11 to 15. How about if we want it to count
+            backward from 15 down to 11? <br><br>
+
+            To run a backward for loop, we must:
+            <ol>
+                <li>
+                    Set the iterator variable to the highest desired value in the initialization expression.
+                    <i>(let counter = 15)</i>
+                </li>
+                <li>
+                    Specify the condition for ending the loop as an inequality test against the lowest
+                    desired value.
+                    <i>(counter >= 11)</i>
+                </li>
+                <li>
+                    Use a decrement operator -- instead of an increment operator ++.
+                    <i>(--counter)</i>                    
+                </li>
+            </ol>
+            
+            Here's an example:
+        </p>
+
 
     </section>
 </body>
