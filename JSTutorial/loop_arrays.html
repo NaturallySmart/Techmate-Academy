@@ -57,7 +57,23 @@
 
         <p id="example1"></p>
 
-       
+        <script>
+            const products = ["Golden Morn", "Chocolate", "Bags of rice"];
+        
+            for (let i = 0; i < products.length; i++) {
+
+                document.getElementById("example1").innerHTML += "<br>" + products[i];
+
+                //document.getElementById("example1").innerHTML += `I just bought ${products[i]} from MetroShop<br> `;
+
+                //document.getElementById("example1").innerHTML += "<br>" + 'I bought ' + products[i] + ' from MetroHub';
+               
+            }
+        </script>
+
+        <h2><i>Exercise</i></h2>
+
+
     </section>
 </body>
 </html>
