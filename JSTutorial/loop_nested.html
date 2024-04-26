@@ -14,7 +14,31 @@
 
     <section class="lesson">
 
-       
+        <h1>Nested Loops</h1>
+
+        <p>
+            When we have a loop running inside another loop, we call that a nested loop. 
+            One use for a nested <b>for loop</b> is to compare the elements in two arrays. 
+            For each round of the outer <b>for loop</b>, the inner <b>for loop</b> will run 
+            completely to search if there is any element in it that matches that in the outer
+            array<br><br>
+
+            Let's see an illustration:
+
+            <pre>
+                const myArray = [8, 15, 11];
+                const yourArray = [17, 20, 15];
+                for (let i = 0; i < myArray.length; i++) {
+                    for (let j = 0; j < yourArray.length; j++) {
+                    if (myArray[i] === yourArray[j]) {
+                        console.log('Both arrays have the number: ' + yourArray[j]);
+                        }
+                    }
+                }
+                //Prints: Both arrays have the number: 15
+            </pre>
+
+
     </section>
 </body>
 </html>
