@@ -80,7 +80,29 @@
             out this task and output a statement like the one below.
         </p>
 
+        <p id="exercise"></p>
 
+        <script>
+            const brendaFriends = ['Kate', 'Bob', 'Joy', 'Mike', 'Tasha'];
+            const jasonFriends = ['Jake', 'Tasha', 'Ray', 'Kate'];
+
+            for (let b = 0; b < brendaFriends.length; b++){
+                for (let j = 0; j < jasonFriends.length; j++ ) {
+                    if(brendaFriends[b] === jasonFriends[j]){
+
+                    //document.getElementById("exercise").innerHTML += brendaFriends[j] + "<br>";
+                    document.getElementById("exercise").innerHTML += "brenda and Jason has "+brendaFriends[b]+", as mutual friends! " + "<br>";
+                   // document.getElementById("exercise").innerHTML += "brenda and Jason has "+brendaFriends[b]+", as mutual friends!";
+                    }
+                }
+            }
+        </script>
+ 
+
+        <div class="nav-button">
+            <button class="back-btn"><a href="loop_arrays.html">BACK</a></button>
+            <button class="next-btn"><a href="loop_while.html">NEXT</a></button>          
+        </div>
 
     </section>
 </body>
