@@ -150,6 +150,36 @@
                     <b>rayFriends</b> to a random element from that array.
                 </li>
 
+                <li>Output the result with a button in a function</li>
+
+                <div>
+                    <button onclick="myFunction()" class="btn btn-primary">Run Code!</button>
+                </div>
+
+                <p id="exercise"></p>
+                <script>
+                    function myFunction(){
+                        // create array of names
+                        const ben = ['Ben', 'Joe', 'Kate', 'Brenda'];
+                        // create variable called rayFriends
+                        let rayFriends;
+                        // while loop until rayFriend is not equal to kate
+                        while (rayFriends !== "Kate") {
+                            // set rayFriend as a random card in the deck
+                            rayFriends = ben[Math.floor(Math.random()*4)];
+
+                        //document.getElementById("exercise").innerHTML= rayFriends;
+                        }
+                        document.getElementById("exercise").innerHTML= `The randomly selected friend is ${rayFriends}`;
+                    
+                      // console.log("The randomly selected friend is: ", rayFriends);
+
+                        //document.getElementById('exercise').innerHTML 
+                    };
+                </script>
+            </ol>
+        </p>
+
 
     </section>
 </body>
